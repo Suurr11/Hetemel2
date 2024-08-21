@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>titel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navigasi -->
+
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/kuda.svg" width="90" alt="" loading="Ferrari" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#diskon">Price</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="#"
+                data-toggle="modal"
+                data-target="#exampleModal"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- slider/carousel -->
+
+    <div class="container mt-10 mb-5">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <!-- isi slider -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/sf24.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/sf24dpn.jpg" class="d-block" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="images/sf90.jpg" class="d-block" alt="..." />
+          </div>
+        </div>
+
+        <!-- tumbol kiri kanan -->
+
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-dark"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-dark"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- jumbotronnnnnnnnn -->
+
+    <div class="jumbotron jumbotron-fluid bg-secondary mb-5">
+      <div class="container">
+        <h1 class="display-2">Italiano Product</h1>
+
+        <p class="lead">
+          "SF24 Ferrari" mengacu pada konsep mobil Ferrari SF24, yang merupakan
+          mobil balap Formula 1 yang dirancang untuk musim balap 2024. Mobil ini
+          merupakan evolusi dari desain sebelumnya, dengan peningkatan
+          aerodinamika, efisiensi energi, dan performa mesin. SF24 dirancang
+          dengan tujuan untuk memberikan Ferrari keunggulan kompetitif di
+          kejuaraan F1 2024. Mobil ini juga mungkin menampilkan livery khas
+          Ferrari dengan warna merah cerah dan detail sponsor yang menonjol.
+        </p>
+
+        <hr class="my-4" />
+        <p>NGUUUUUUUUUUUEEEEEEEEEEEEEEEEEEEEEENNNNNNNNNNNNGGGGGGGGGGGGGGG</p>
+
+        <a class="btn btn-danger btn-outline-dark btn-lg" href="#" role="button"
+          >NGUENGGG!</a
+        >
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col lima biru">kolom 1</div>
+        <div class="col lima ijo">kolom 2</div>
+      </div>
+    </div>
+
+    <!-- CARDDDDDDDD -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="card" style="width: 18rem">
+            <img src="images/sf90.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">SF90</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">Rp. 1</h5>
+              <a href="#" class="btn btn-primary">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="card" style="width: 18rem">
+            <img src="images/sf24.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">SF24</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">Rp. 1</h5>
+              <a href="#" class="btn btn-primary">Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="card" style="width: 18rem">
+            <img src="images/458.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">458</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <h5 class="card-title">Rp. 1</h5>
+              <a href="#" class="btn btn-primary">Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DDDDDDDDDDDDIIIIIIIIISSSSSSKKKKKKOOOOOOOONNNNNNNNN -->
+
+    <div class="container" id="diskon">
+      <div class="row">
+        <div class="col">
+          <div class="h1 bg-secondary text-light">Diskon 999%</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="images/sf24dpn.jpg" height="200px" alt="" />
+        </div>
+        <div class="col-lg-8">
+          <table class="table mt-3">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Formula Car</th>
+                <th scope="col">Diskon</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Ferrari</td>
+                <td>0%</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Mercedes</td>
+                <td>44%</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>RedBull</td>
+                <td>95%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="jumbotron jumbotron-fluid bg-dark text-light justify-content-center"
+    >
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-4">
+            <p><strong>FERRARI NUMERO UNOO</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Alpha</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <form>
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                  </div>
+                </div>
+
+                <small id="emailHelp" class="form-text text-muted"
+                  >Isi nama serigala kalian</small
+                >
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Save changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
